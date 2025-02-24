@@ -1,6 +1,6 @@
 # Teacher Grading Client with Reactjs
 
-A simple Example Catalogue App built using **React.js ** with the **TypeScript**, and **Sass**.
+A simple Teacher Grading App built using **React.js** with the **TypeScript**, and **Sass**.
 
 ---
 
