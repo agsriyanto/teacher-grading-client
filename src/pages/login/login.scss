@@ -1,0 +1,75 @@
+.login, .register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+
+  .logo {
+    width: 120px;
+    height: fit-content;
+  }
+
+  .form {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #33cea2;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #33cea2;
+
+    .title {
+      margin: 10px;
+    }
+
+    &-input {
+      border: 1px solid #33cea2;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      
+      &:active, &:focus {
+        border: 1px solid #33cea2;
+        box-shadow: 0 0 5px #33cea2;
+      }
+    }
+
+    &-button {
+      border: 1px solid #33cea2;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      background-color: #33cea2;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn-cancel {
+      background: #dc3545;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.2s;
+    
+      &:hover {
+        background: #c82333;
+      }
+    }
+
+    .register-title {
+      margin: 0;
+      font-size: 11px;
+
+      span {
+        color: #33cea2;
+        cursor: pointer;
+      }
+    }
+  }
+}
